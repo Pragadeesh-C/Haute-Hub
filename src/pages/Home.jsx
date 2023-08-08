@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import ProductCard from '../components/ProductCard'
+import '../styles/Home.css'
 
-function Home() {
+const Home = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className='container'>
+      <h2>New Products</h2>
+      <ProductCard/>
     </div>
   )
 }
