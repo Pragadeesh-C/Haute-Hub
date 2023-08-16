@@ -22,7 +22,7 @@ const Cart = () => {
           MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER, 32GB RAM,
           1TB SSD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty
         </div>
-        <div className="price">$4349.00</div>
+        <div className="itemPrice">$4349.00</div>
         <div className="qty">
           <input type="number" className="qtyInput" />
         </div>

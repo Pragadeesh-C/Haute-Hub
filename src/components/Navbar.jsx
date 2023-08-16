@@ -16,7 +16,9 @@ function Navbar() {
         <li>Fashion</li>
         <li>Furnitures</li>
         <li>Books</li>
+        <Link to='/sell'>
           <button className="dealsButton">Sell</button>
+        </Link>
         <div>
           <FontAwesomeIcon icon={faMagnifyingGlass} className="searchIcon" />
           <Link to="/cart">
@@ -24,7 +26,9 @@ function Navbar() {
               <BsCart3 className="cartIcon" />
             </div>
           </Link>
+          <Link to='/login'>
           <FontAwesomeIcon icon={faUser} className="userIcon" />{" "}
+          </Link>
         </div>
       </ul>
     </div>

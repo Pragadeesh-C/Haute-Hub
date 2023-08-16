@@ -26,7 +26,7 @@
     font-weight: 500;
 }   
 
-.price{
+.productcard .productDetails .productPrice{
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 0.5px;

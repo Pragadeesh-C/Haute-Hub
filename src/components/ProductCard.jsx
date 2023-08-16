@@ -9,7 +9,7 @@ const ProductCard = () => {
         <img src={CardImage} className="cardImage" />
         <div className="title">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6</div>
         <div className="priceStriked">$499. 00</div>
-        <div className="price">$499.00</div>
+        <div className="productPrice">$499.00</div>
       </div>
       <button>Add to Cart</button>
     </div>
