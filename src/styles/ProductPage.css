@@ -28,16 +28,16 @@
 }
 
 .price {
-  color: #08bfe2;
-  font-weight: 600;
-  font-size: 20px;
+  color: #28C8A4;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .addCart {
   height: 2.5rem;
   width: 40vh;
   border: none;
-  background-color: #08bfe2;
+  background-color: #28C8A4;
   color: white;
   font-family: "Poppins";
   letter-spacing: 0.5px;

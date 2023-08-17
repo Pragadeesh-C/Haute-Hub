@@ -43,7 +43,11 @@
 }
 
 .cart .products .qty{
-    width: 30vh;
+    display: flex;
+    height: 2rem;
+    border:1px solid black;
+    width: 15%;
+    margin-right: 50px;
 }
 
 .cart .products .subtotal{

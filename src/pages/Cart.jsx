@@ -24,7 +24,7 @@ const Cart = () => {
         </div>
         <div className="itemPrice">$4349.00</div>
         <div className="qty">
-          <input type="number" className="qtyInput" />
+          <input type="number" className="qtyItem"/>
         </div>
         <div className="subtotal">
           $4349.00

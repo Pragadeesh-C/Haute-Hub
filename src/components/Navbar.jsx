@@ -10,13 +10,15 @@ function Navbar() {
   return (
     <div className="navbar">
       <ul className="list">
-        <img src={Logo} />
+        <Link to={"/"}>
+          <img src={Logo} />
+        </Link>
         <li>Electronics</li>
         <li>Vehicles</li>
         <li>Fashion</li>
         <li>Furnitures</li>
         <li>Books</li>
-        <Link to='/sell'>
+        <Link to="/sell">
           <button className="dealsButton">Sell</button>
         </Link>
         <div>
@@ -26,8 +28,8 @@ function Navbar() {
               <BsCart3 className="cartIcon" />
             </div>
           </Link>
-          <Link to='/login'>
-          <FontAwesomeIcon icon={faUser} className="userIcon" />{" "}
+          <Link to="/login">
+            <FontAwesomeIcon icon={faUser} className="userIcon" />{" "}
           </Link>
         </div>
       </ul>
