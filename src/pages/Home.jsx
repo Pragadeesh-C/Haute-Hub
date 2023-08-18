@@ -35,10 +35,10 @@ const Home = () => {
   return (
     <div>
       <h2>New Products</h2>
-      <div className="container">
+      <div className="card">
       {products.map((item) => {
         
-        return(<ProductCard props={item }/>)
+        return(<ProductCard props={item}/>)
       })}
       </div>
     </div>

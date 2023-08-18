@@ -16,6 +16,7 @@
 .productcard .cardImage{
     height: 200px;  
     width: 200px;
+    object-fit: contain;
     align-self: center;
 }
 
@@ -26,7 +27,7 @@
 }   
 
 .productcard .productDetails .productPrice{
-    font-weight: bold;
+    font-weight: 600;
     font-size: 25px;
     letter-spacing: 0.5px;
     font-family: 'Poppins';
@@ -36,7 +37,7 @@
     text-decoration:line-through;
     font-size: 18px;
     color:grey;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Poppins';
     margin-top: 16px;
 }
