@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import "../styles/Cart.css";
-import Product from "../assets/img.png";
-import { Link } from "react-router-dom";
+import "../styles/Cart.css"; 
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useSelector } from "react-redux";
 

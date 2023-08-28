@@ -8,6 +8,7 @@ import SellProduct from "./pages/SellProduct";
 import Login from "./pages/Login";
 import { Provider } from "react-redux";
 import store from "./configs/store";
+import Register from "./pages/Register";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/product" element={<ProductPage />} />
             <Route path="/sell" element={<SellProduct />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </Provider>
       </Router>
